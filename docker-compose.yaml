@@ -14,7 +14,7 @@ services:
       - jira_network
 
   jira:
-    image: atlassian/jira-software:8.20.0
+    image: atlassian/jira-software:9.4.17
     container_name: jira_server
     environment:
       - ATL_JDBC_URL=jdbc:postgresql://postgres:5432/jiradb
